@@ -23,6 +23,14 @@
     <NoWarn>1591</NoWarn>
     <OutputPath>..\bin\$(Configuration)\</OutputPath>
     <DocumentationFile>..\bin\$(Configuration)\ICSharpCode.NRefactory.xml</DocumentationFile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -264,11 +272,7 @@
     <Compile Include="Utils\CompositeFormatStringParser\IFormatStringError.cs" />
     <Compile Include="Completion\CompletionExtensionMethods.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Completion\" />
-    <Folder Include="TypeSystem\" />
-    <Folder Include="Utils\CompositeFormatStringParser\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\Mono.Cecil\Mono.Cecil.csproj">
       <Project>{D68133BD-1E63-496E-9EDE-4FBDBF77B486}</Project>
